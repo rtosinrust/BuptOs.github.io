@@ -421,7 +421,7 @@ code {
 </ol>
 <p>推荐新手在前3个选项里面选一个，配置相对简单，不会扰乱自己的主机环境，误操作后可能有可以挽救的机会。</p>
 <p>选择好开发环境后，就要开始配置具体的内容了。主要是配置编译工具链和打补丁的qemu。
-不想自己配置的，可以直接运行我们提供的docker <a href="https://hub.docker.com/repository/docker/l543306408/mit-6.824-jos">mit-jos镜像</a>。jos lab目录在/data/mit-6.824-labs/lab。
+不想自己配置的，可以直接运行我们提供的docker <a href="https://hub.docker.com/repository/docker/l543306408/mit-6.824-jos">mit-jos镜像</a>。启动镜像的命令是`docker run -itd l543306408/mit-6.824-jos:v3.0`。jos lab目录在/data/mit-6.824-labs/lab。
 如果想要自己体验配置环境的“快乐”，这里提供一个镜像制作的dockerfile，可以从中参考配置环境的步骤。
 需要注意的是如果上一步选择在裸机上开发，而且找不到编译好的库，需要自己编译开发链。</p>
 <pre class="hljs"><code><div><span class="hljs-keyword">FROM</span> ubuntu:<span class="hljs-number">20.04</span>
