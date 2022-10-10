@@ -22,6 +22,13 @@ a:hover{ color:#FF9900; text-decoration: none }
 	text-align: center;
 }
 
+.index_about P.lab_explain{
+	padding: 15px 50px;
+    font: 16px/25px simsun, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	text-align:start;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
